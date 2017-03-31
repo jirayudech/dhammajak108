@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DC53721E8DF6E10037508A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC53711E8DF6E10037508A /* AppDelegate.swift */; };
+		04DC53741E8DF6E10037508A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC53731E8DF6E10037508A /* ViewController.swift */; };
+		04DC53771E8DF6E10037508A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC53751E8DF6E10037508A /* Main.storyboard */; };
+		04DC53791E8DF6E10037508A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC53781E8DF6E10037508A /* Assets.xcassets */; };
+		04DC537C1E8DF6E10037508A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC537A1E8DF6E10037508A /* LaunchScreen.storyboard */; };
+		04DC53871E8DF6E10037508A /* DhammajakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC53861E8DF6E10037508A /* DhammajakTests.swift */; };
+		04DC53921E8DF6E10037508A /* DhammajakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC53911E8DF6E10037508A /* DhammajakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DC53831E8DF6E10037508A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DC53661E8DF6E10037508A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DC536D1E8DF6E10037508A;
+			remoteInfo = Dhammajak;
+		};
+		04DC538E1E8DF6E10037508A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DC53661E8DF6E10037508A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DC536D1E8DF6E10037508A;
+			remoteInfo = Dhammajak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DC536E1E8DF6E10037508A /* Dhammajak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dhammajak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC53711E8DF6E10037508A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DC53731E8DF6E10037508A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DC53761E8DF6E10037508A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DC53781E8DF6E10037508A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DC537B1E8DF6E10037508A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DC537D1E8DF6E10037508A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC53821E8DF6E10037508A /* DhammajakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhammajakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC53861E8DF6E10037508A /* DhammajakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhammajakTests.swift; sourceTree = "<group>"; };
+		04DC53881E8DF6E10037508A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC538D1E8DF6E10037508A /* DhammajakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhammajakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DC53911E8DF6E10037508A /* DhammajakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhammajakUITests.swift; sourceTree = "<group>"; };
+		04DC53931E8DF6E10037508A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DC536B1E8DF6E10037508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC537F1E8DF6E10037508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC538A1E8DF6E10037508A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DC53651E8DF6E10037508A = {
+			isa = PBXGroup;
+			children = (
+				04DC53701E8DF6E10037508A /* Dhammajak */,
+				04DC53851E8DF6E10037508A /* DhammajakTests */,
+				04DC53901E8DF6E10037508A /* DhammajakUITests */,
+				04DC536F1E8DF6E10037508A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DC536F1E8DF6E10037508A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DC536E1E8DF6E10037508A /* Dhammajak.app */,
+				04DC53821E8DF6E10037508A /* DhammajakTests.xctest */,
+				04DC538D1E8DF6E10037508A /* DhammajakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DC53701E8DF6E10037508A /* Dhammajak */ = {
+			isa = PBXGroup;
+			children = (
+				04DC53711E8DF6E10037508A /* AppDelegate.swift */,
+				04DC53731E8DF6E10037508A /* ViewController.swift */,
+				04DC53751E8DF6E10037508A /* Main.storyboard */,
+				04DC53781E8DF6E10037508A /* Assets.xcassets */,
+				04DC537A1E8DF6E10037508A /* LaunchScreen.storyboard */,
+				04DC537D1E8DF6E10037508A /* Info.plist */,
+			);
+			path = Dhammajak;
+			sourceTree = "<group>";
+		};
+		04DC53851E8DF6E10037508A /* DhammajakTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DC53861E8DF6E10037508A /* DhammajakTests.swift */,
+				04DC53881E8DF6E10037508A /* Info.plist */,
+			);
+			path = DhammajakTests;
+			sourceTree = "<group>";
+		};
+		04DC53901E8DF6E10037508A /* DhammajakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DC53911E8DF6E10037508A /* DhammajakUITests.swift */,
+				04DC53931E8DF6E10037508A /* Info.plist */,
+			);
+			path = DhammajakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DC536D1E8DF6E10037508A /* Dhammajak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC53961E8DF6E10037508A /* Build configuration list for PBXNativeTarget "Dhammajak" */;
+			buildPhases = (
+				04DC536A1E8DF6E10037508A /* Sources */,
+				04DC536B1E8DF6E10037508A /* Frameworks */,
+				04DC536C1E8DF6E10037508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dhammajak;
+			productName = Dhammajak;
+			productReference = 04DC536E1E8DF6E10037508A /* Dhammajak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DC53811E8DF6E10037508A /* DhammajakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC53991E8DF6E10037508A /* Build configuration list for PBXNativeTarget "DhammajakTests" */;
+			buildPhases = (
+				04DC537E1E8DF6E10037508A /* Sources */,
+				04DC537F1E8DF6E10037508A /* Frameworks */,
+				04DC53801E8DF6E10037508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DC53841E8DF6E10037508A /* PBXTargetDependency */,
+			);
+			name = DhammajakTests;
+			productName = DhammajakTests;
+			productReference = 04DC53821E8DF6E10037508A /* DhammajakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DC538C1E8DF6E10037508A /* DhammajakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC539C1E8DF6E10037508A /* Build configuration list for PBXNativeTarget "DhammajakUITests" */;
+			buildPhases = (
+				04DC53891E8DF6E10037508A /* Sources */,
+				04DC538A1E8DF6E10037508A /* Frameworks */,
+				04DC538B1E8DF6E10037508A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DC538F1E8DF6E10037508A /* PBXTargetDependency */,
+			);
+			name = DhammajakUITests;
+			productName = DhammajakUITests;
+			productReference = 04DC538D1E8DF6E10037508A /* DhammajakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DC53661E8DF6E10037508A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "RGT Soft";
+				TargetAttributes = {
+					04DC536D1E8DF6E10037508A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQWG53A43F;
+						ProvisioningStyle = Automatic;
+					};
+					04DC53811E8DF6E10037508A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQWG53A43F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DC536D1E8DF6E10037508A;
+					};
+					04DC538C1E8DF6E10037508A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQWG53A43F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DC536D1E8DF6E10037508A;
+					};
+				};
+			};
+			buildConfigurationList = 04DC53691E8DF6E10037508A /* Build configuration list for PBXProject "Dhammajak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DC53651E8DF6E10037508A;
+			productRefGroup = 04DC536F1E8DF6E10037508A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DC536D1E8DF6E10037508A /* Dhammajak */,
+				04DC53811E8DF6E10037508A /* DhammajakTests */,
+				04DC538C1E8DF6E10037508A /* DhammajakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DC536C1E8DF6E10037508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC537C1E8DF6E10037508A /* LaunchScreen.storyboard in Resources */,
+				04DC53791E8DF6E10037508A /* Assets.xcassets in Resources */,
+				04DC53771E8DF6E10037508A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC53801E8DF6E10037508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC538B1E8DF6E10037508A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DC536A1E8DF6E10037508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC53741E8DF6E10037508A /* ViewController.swift in Sources */,
+				04DC53721E8DF6E10037508A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC537E1E8DF6E10037508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC53871E8DF6E10037508A /* DhammajakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DC53891E8DF6E10037508A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DC53921E8DF6E10037508A /* DhammajakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DC53841E8DF6E10037508A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DC536D1E8DF6E10037508A /* Dhammajak */;
+			targetProxy = 04DC53831E8DF6E10037508A /* PBXContainerItemProxy */;
+		};
+		04DC538F1E8DF6E10037508A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DC536D1E8DF6E10037508A /* Dhammajak */;
+			targetProxy = 04DC538E1E8DF6E10037508A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DC53751E8DF6E10037508A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DC53761E8DF6E10037508A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DC537A1E8DF6E10037508A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DC537B1E8DF6E10037508A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DC53941E8DF6E10037508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DC53951E8DF6E10037508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DC53971E8DF6E10037508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = Dhammajak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.Dhammajak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04DC53981E8DF6E10037508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = Dhammajak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.Dhammajak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04DC539A1E8DF6E10037508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = DhammajakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.DhammajakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhammajak.app/Dhammajak";
+			};
+			name = Debug;
+		};
+		04DC539B1E8DF6E10037508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = DhammajakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.DhammajakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhammajak.app/Dhammajak";
+			};
+			name = Release;
+		};
+		04DC539D1E8DF6E10037508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = DhammajakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.DhammajakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dhammajak;
+			};
+			name = Debug;
+		};
+		04DC539E1E8DF6E10037508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQWG53A43F;
+				INFOPLIST_FILE = DhammajakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.DhammajakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dhammajak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DC53691E8DF6E10037508A /* Build configuration list for PBXProject "Dhammajak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC53941E8DF6E10037508A /* Debug */,
+				04DC53951E8DF6E10037508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DC53961E8DF6E10037508A /* Build configuration list for PBXNativeTarget "Dhammajak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC53971E8DF6E10037508A /* Debug */,
+				04DC53981E8DF6E10037508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DC53991E8DF6E10037508A /* Build configuration list for PBXNativeTarget "DhammajakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC539A1E8DF6E10037508A /* Debug */,
+				04DC539B1E8DF6E10037508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DC539C1E8DF6E10037508A /* Build configuration list for PBXNativeTarget "DhammajakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DC539D1E8DF6E10037508A /* Debug */,
+				04DC539E1E8DF6E10037508A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DC53661E8DF6E10037508A /* Project object */;
+}
