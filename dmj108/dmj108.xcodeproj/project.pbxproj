@@ -13,8 +13,6 @@
 		04561B171E952A94008D7F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04561B151E952A94008D7F5D /* Main.storyboard */; };
 		04561B191E952A94008D7F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04561B181E952A94008D7F5D /* Assets.xcassets */; };
 		04561B1C1E952A94008D7F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04561B1A1E952A94008D7F5D /* LaunchScreen.storyboard */; };
-		04BAE00C1E9748D50010779A /* CircledPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE00A1E9748D50010779A /* CircledPause.png */; };
-		04BAE00D1E9748D50010779A /* CircledPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE00B1E9748D50010779A /* CircledPlay.png */; };
 		04BAE0131E9786E10010779A /* dhammajak12minutes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */; };
 		04BAE0151E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0141E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png */; };
 		04BAE0191E97FD2B0010779A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0181E97FD2B0010779A /* play.png */; };
@@ -34,8 +32,6 @@
 		04561B181E952A94008D7F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04561B1B1E952A94008D7F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04561B1D1E952A94008D7F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04BAE00A1E9748D50010779A /* CircledPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CircledPause.png; path = ../CircledPause.png; sourceTree = "<group>"; };
-		04BAE00B1E9748D50010779A /* CircledPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CircledPlay.png; path = ../CircledPlay.png; sourceTree = "<group>"; };
 		04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhammajak12minutes.mp3; sourceTree = "<group>"; };
 		04BAE0141E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2560-04-07 at 10.42.50 PM.png"; sourceTree = "<group>"; };
 		04BAE0181E97FD2B0010779A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -82,8 +78,6 @@
 				04561B131E952A94008D7F5D /* SecondViewController.swift */,
 				04561B151E952A94008D7F5D /* Main.storyboard */,
 				04561B181E952A94008D7F5D /* Assets.xcassets */,
-				04BAE00A1E9748D50010779A /* CircledPause.png */,
-				04BAE00B1E9748D50010779A /* CircledPlay.png */,
 				04BAE01C1E98176F0010779A /* background.png */,
 				04BAE01A1E97FD310010779A /* pause.png */,
 				04BAE01E1E9824410010779A /* tabbar-button-play.png */,
@@ -163,10 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BAE0131E9786E10010779A /* dhammajak12minutes.mp3 in Resources */,
-				04BAE00C1E9748D50010779A /* CircledPause.png in Resources */,
 				04BAE0151E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png in Resources */,
 				04F179F61E963D3F00BF87CD /* dhammajak.mp3 in Resources */,
-				04BAE00D1E9748D50010779A /* CircledPlay.png in Resources */,
 				04BAE01F1E9824410010779A /* tabbar-button-play.png in Resources */,
 				04BAE01B1E97FD310010779A /* pause.png in Resources */,
 				04BAE0191E97FD2B0010779A /* play.png in Resources */,

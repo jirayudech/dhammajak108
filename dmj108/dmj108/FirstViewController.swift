@@ -93,6 +93,7 @@ class FirstViewController: UIViewController {
             
             
             RestartButton.isEnabled = true
+            stepper.isEnabled = false
             
             songs = []
 
@@ -134,6 +135,7 @@ class FirstViewController: UIViewController {
         ResetPlayer()
         self.text_round.text = text
         Label1.text =  ""
+        
     }
     
     
@@ -146,6 +148,7 @@ class FirstViewController: UIViewController {
         PlayButton.setImage(UIImage(named: "play")?.withRenderingMode(.alwaysOriginal), for: .normal)
         RestartButton.isEnabled = false
         RoundCount = 0
+        stepper.isEnabled = true
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
