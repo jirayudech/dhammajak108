@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--สวดธรรมจักร-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="dmj108" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V3B-Le-aJr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="td6-Ug-P98"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="ธรรมจักร 108" id="bII-UJ-pGF"/>
+                                </items>
+                            </navigationBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KwK-Hz-p1g" userLabel="Stepper Stack View">
+                                <rect key="frame" x="16" y="98" width="272" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" จำนวนจบ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8m-dX-gmb">
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0l-2f-R3J">
+                                        <rect key="frame" x="144" y="0.0" width="14" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="WKr-dL-Ma4">
+                                        <rect key="frame" x="178" y="0.0" width="94" height="29"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.51372549020000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="Stepper:" destination="9pv-A4-QxB" eventType="valueChanged" id="Vxn-Ih-Lf7"/>
+                                        </connections>
+                                    </stepper>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9r-XR-2vW">
+                                <rect key="frame" x="96" y="199" width="128" height="128"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <state key="normal" image="play.png"/>
+                                <connections>
+                                    <action selector="PlayButtonAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="U3o-S5-4ya"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VR8-xs-qIu">
+                                <rect key="frame" x="110" y="347" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.51372549019607838" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0Qf-LP-qzm"/>
+                                    <constraint firstAttribute="width" constant="100" id="kaA-di-yk7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="เริ่มใหม่">
+                                    <color key="titleColor" red="0.92941176469999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RestartButtonAction:" destination="9pv-A4-QxB" eventType="touchUpInside" id="yot-j5-3Qj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcu-bQ-zd5">
+                                <rect key="frame" x="146" y="135" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-dt-bM6" userLabel="TotalRound Stack View">
+                                <rect key="frame" x="23" y="51" width="138" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="จำนวนจบรวม:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acc-4I-pVV">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-Ph-Cuf">
+                                        <rect key="frame" x="122.5" y="0.0" width="15" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="lcu-bQ-zd5" firstAttribute="top" secondItem="KwK-Hz-p1g" secondAttribute="bottom" constant="20" id="13X-ue-aPe"/>
+                            <constraint firstItem="Yht-dt-bM6" firstAttribute="top" secondItem="V3B-Le-aJr" secondAttribute="bottom" constant="8" id="7cd-p0-8GK"/>
+                            <constraint firstItem="KwK-Hz-p1g" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="16" id="8VS-Bl-vkn"/>
+                            <constraint firstItem="VR8-xs-qIu" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="8nk-Cw-nN4"/>
+                            <constraint firstItem="X9r-XR-2vW" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="APL-Ua-fuf"/>
+                            <constraint firstItem="V3B-Le-aJr" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="E1e-nL-Orj"/>
+                            <constraint firstAttribute="trailing" secondItem="V3B-Le-aJr" secondAttribute="trailing" id="F08-bK-TTd"/>
+                            <constraint firstItem="VR8-xs-qIu" firstAttribute="top" secondItem="X9r-XR-2vW" secondAttribute="bottom" constant="13" id="PCu-Xb-kHz"/>
+                            <constraint firstItem="V3B-Le-aJr" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="QDa-9I-Cm7"/>
+                            <constraint firstItem="Yht-dt-bM6" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="20" id="SBM-d4-rqw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KwK-Hz-p1g" secondAttribute="trailing" constant="16" id="Tb3-ia-JPL"/>
+                            <constraint firstItem="X9r-XR-2vW" firstAttribute="top" secondItem="KwK-Hz-p1g" secondAttribute="bottom" constant="45" id="Wgg-bX-mw6"/>
+                            <constraint firstItem="KwK-Hz-p1g" firstAttribute="top" secondItem="Yht-dt-bM6" secondAttribute="bottom" constant="25" id="hjS-eL-qTn"/>
+                            <constraint firstItem="lcu-bQ-zd5" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="zAc-zM-Ewv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="สวดธรรมจักร" image="tabbar-button-play.png" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="Label1" destination="lcu-bQ-zd5" id="bPB-rE-KWE"/>
+                        <outlet property="PlayButton" destination="X9r-XR-2vW" id="eMH-OD-dsD"/>
+                        <outlet property="RestartButton" destination="VR8-xs-qIu" id="Um8-z4-5mr"/>
+                        <outlet property="Round" destination="b0l-2f-R3J" id="hb1-Lb-a0e"/>
+                        <outlet property="TotalRound" destination="hIO-Ph-Cuf" id="vwt-gd-zBR"/>
+                        <outlet property="stepper" destination="WKr-dL-Ma4" id="xjZ-ir-UMI"/>
+                        <outlet property="text_round" destination="S8m-dX-gmb" id="56I-LT-9rG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--ข่าวสาร-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="dmj108" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsl-JM-xja">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="1UF-bx-gFh">
+                                <rect key="frame" x="150" y="209" width="20" height="62"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1UF-bx-gFh" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="5jj-JG-4U2"/>
+                            <constraint firstItem="1UF-bx-gFh" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="189" id="NHh-0D-e7J"/>
+                            <constraint firstItem="bsl-JM-xja" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="OKq-7c-KTW"/>
+                            <constraint firstAttribute="trailing" secondItem="bsl-JM-xja" secondAttribute="trailing" id="T8T-da-jXY"/>
+                            <constraint firstItem="1UF-bx-gFh" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="134" id="X6s-A7-Hgd"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="bsl-JM-xja" secondAttribute="bottom" id="ZH8-5e-rHv"/>
+                            <constraint firstItem="bsl-JM-xja" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="h5e-SF-9fZ"/>
+                            <constraint firstItem="1UF-bx-gFh" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="ktN-Og-99h"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ข่าวสาร" image="tabbar-info.png" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="activity" destination="1UF-bx-gFh" id="FxN-5X-fRY"/>
+                        <outlet property="webView" destination="bsl-JM-xja" id="Dji-CH-6cB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.125" y="358.75"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play.png" width="128" height="128"/>
+        <image name="tabbar-button-play.png" width="30" height="30"/>
+        <image name="tabbar-info.png" width="30" height="30"/>
+    </resources>
+</document>
