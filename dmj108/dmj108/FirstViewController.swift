@@ -2,7 +2,7 @@
 //  FirstViewController.swift
 //  dmj108
 //
-//  Created by Mac mini on 4/5/2560 BE.
+//  Created by Jirayudech on 4/5/2560 BE.
 //  Copyright © 2560 RGT Soft. All rights reserved.
 //
 
@@ -31,14 +31,12 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        //Decorate RestartButton
+        //Decorate UI
         RestartButton.layer.borderColor = UIColor.black.cgColor
-        //RestartButton.layer.borderWidth = 1
         RestartButton.layer.cornerRadius = 5
         
         stepper.layer.cornerRadius = 5
         
-
         self.tabBarController?.tabBar.tintColor = UIColor.orange
         
         //Total Round
@@ -50,7 +48,7 @@ class FirstViewController: UIViewController {
             TotalRound.text = "0"
         }
         
-        /// Enable back ground Play
+        /// Enable background play. Need to add capabilities, Background Mode: Audio, Airplay
         let audioSession = AVAudioSession.sharedInstance()
         
         do{
@@ -58,20 +56,19 @@ class FirstViewController: UIViewController {
         } catch{
             print(error)
         }
-        // End enable background play
         
         
-        //Looks for single or multiple taps.
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.dismissKeyboard))
+        //Fix drag does not work.
+        /*let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.dismissKeyboard))
         
-        view.addGestureRecognizer(tap)
+        view.addGestureRecognizer(tap)*/
     }
 
     //Calls this function when the tap is recognized.
-    func dismissKeyboard() {
+    /*func dismissKeyboard() {
         //Causes the view (or one of its embedded text fields) to resign the first responder status.
         //view.endEditing(true)
-    }
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -79,41 +76,35 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func Stepper(_ stepper: UIStepper) {
-
-        
         Round.text = "\(String(format: "%.0f", stepper.value))"
-        
     }
     
     @IBAction func PlayButtonAction(_ sender: Any) {
         if (isPlaying==0) {
+            //Playing variables setup.
             Label1.text =  "กำลังสวด..."
             isPlaying = 1;
             PlayButton.setImage(UIImage(named: "pause")?.withRenderingMode(.alwaysOriginal), for: .normal)
-            
-            
             RestartButton.isEnabled = true
             stepper.isEnabled = false
             
-            songs = []
-
-            var rounds = Int(Round.text!)!
-
             
+            //Add songs to play list.
+            songs = []
+            var rounds = Int(Round.text!)!
             for _ in 0 ..< Int(rounds) {
                 let url = Bundle.main.url(forResource: "dhammajak", withExtension: "mp3")!
                 let asset2 = AVAsset(url: url)
                 let playerItem2 = AVPlayerItem(asset: asset2)
                 
                 songs = songs + [playerItem2]
-                
             }
             
             
             self.qp = AVQueuePlayer.init(items: songs)
             self.qp.addObserver(self, forKeyPath: "currentItem", options: NSKeyValueObservingOptions(), context: nil)
-            
             self.qp.play()
+            
         } else if(isPlaying==1){
             Label1.text =  "หยุดสวดชั่วคราว..."
             self.qp.pause()
@@ -151,6 +142,7 @@ class FirstViewController: UIViewController {
         stepper.isEnabled = true
     }
     
+    //Observe when finished each songs
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         RoundCount = RoundCount + 1
@@ -170,7 +162,6 @@ class FirstViewController: UIViewController {
             ResetPlayer()
         }
         
- 
     }
     
 }

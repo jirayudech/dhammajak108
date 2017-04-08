@@ -123,7 +123,7 @@
                             <constraint firstItem="lcu-bQ-zd5" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="zAc-zM-Ewv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="สวดธรรมจักร" image="tabbar-button-play.png" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="สวดธรรมจักร" image="tabbar-icon-dhammajak.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="Label1" destination="lcu-bQ-zd5" id="bPB-rE-KWE"/>
                         <outlet property="PlayButton" destination="X9r-XR-2vW" id="eMH-OD-dsD"/>
@@ -202,7 +202,7 @@
     </scenes>
     <resources>
         <image name="play.png" width="128" height="128"/>
-        <image name="tabbar-button-play.png" width="30" height="30"/>
+        <image name="tabbar-icon-dhammajak.png" width="29" height="29"/>
         <image name="tabbar-info.png" width="30" height="30"/>
     </resources>
 </document>

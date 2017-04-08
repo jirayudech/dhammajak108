@@ -14,12 +14,12 @@
 		04561B191E952A94008D7F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04561B181E952A94008D7F5D /* Assets.xcassets */; };
 		04561B1C1E952A94008D7F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04561B1A1E952A94008D7F5D /* LaunchScreen.storyboard */; };
 		04BAE0131E9786E10010779A /* dhammajak12minutes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */; };
-		04BAE0151E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0141E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png */; };
 		04BAE0191E97FD2B0010779A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0181E97FD2B0010779A /* play.png */; };
 		04BAE01B1E97FD310010779A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE01A1E97FD310010779A /* pause.png */; };
 		04BAE01D1E98176F0010779A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE01C1E98176F0010779A /* background.png */; };
 		04BAE01F1E9824410010779A /* tabbar-button-play.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE01E1E9824410010779A /* tabbar-button-play.png */; };
 		04BAE0211E9824ED0010779A /* tabbar-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0201E9824ED0010779A /* tabbar-info.png */; };
+		04BAE0271E989D9C0010779A /* tabbar-icon-dhammajak.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0261E989D9C0010779A /* tabbar-icon-dhammajak.png */; };
 		04F179F61E963D3F00BF87CD /* dhammajak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04F179F51E963D3F00BF87CD /* dhammajak.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -33,12 +33,12 @@
 		04561B1B1E952A94008D7F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04561B1D1E952A94008D7F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhammajak12minutes.mp3; sourceTree = "<group>"; };
-		04BAE0141E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2560-04-07 at 10.42.50 PM.png"; sourceTree = "<group>"; };
 		04BAE0181E97FD2B0010779A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		04BAE01A1E97FD310010779A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		04BAE01C1E98176F0010779A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		04BAE01E1E9824410010779A /* tabbar-button-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-button-play.png"; sourceTree = "<group>"; };
 		04BAE0201E9824ED0010779A /* tabbar-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-info.png"; sourceTree = "<group>"; };
+		04BAE0261E989D9C0010779A /* tabbar-icon-dhammajak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-icon-dhammajak.png"; sourceTree = "<group>"; };
 		04F179F51E963D3F00BF87CD /* dhammajak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhammajak.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,6 @@
 		04561B031E952A94008D7F5D = {
 			isa = PBXGroup;
 			children = (
-				04BAE0141E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png */,
 				04561B0E1E952A94008D7F5D /* dmj108 */,
 				04561B0D1E952A94008D7F5D /* Products */,
 			);
@@ -84,6 +83,7 @@
 				04BAE0181E97FD2B0010779A /* play.png */,
 				04BAE0201E9824ED0010779A /* tabbar-info.png */,
 				04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */,
+				04BAE0261E989D9C0010779A /* tabbar-icon-dhammajak.png */,
 				04F179F51E963D3F00BF87CD /* dhammajak.mp3 */,
 				04561B1A1E952A94008D7F5D /* LaunchScreen.storyboard */,
 				04561B1D1E952A94008D7F5D /* Info.plist */,
@@ -157,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BAE0131E9786E10010779A /* dhammajak12minutes.mp3 in Resources */,
-				04BAE0151E97EB190010779A /* Screen Shot 2560-04-07 at 10.42.50 PM.png in Resources */,
 				04F179F61E963D3F00BF87CD /* dhammajak.mp3 in Resources */,
 				04BAE01F1E9824410010779A /* tabbar-button-play.png in Resources */,
 				04BAE01B1E97FD310010779A /* pause.png in Resources */,
@@ -165,6 +164,7 @@
 				04561B1C1E952A94008D7F5D /* LaunchScreen.storyboard in Resources */,
 				04561B191E952A94008D7F5D /* Assets.xcassets in Resources */,
 				04BAE01D1E98176F0010779A /* background.png in Resources */,
+				04BAE0271E989D9C0010779A /* tabbar-icon-dhammajak.png in Resources */,
 				04BAE0211E9824ED0010779A /* tabbar-info.png in Resources */,
 				04561B171E952A94008D7F5D /* Main.storyboard in Resources */,
 			);

@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  dmj108
 //
-//  Created by Mac mini on 4/5/2560 BE.
+//  Created by Jirayudech on 4/5/2560 BE.
 //  Copyright © 2560 RGT Soft. All rights reserved.
 //
 
@@ -17,7 +17,9 @@ class SecondViewController: UIViewController, UIWebViewDelegate {
 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        webView.delegate = self
+        
+        webView.delegate = self //Use to create did start load and did finish load event.
+        
         loadDmj108Blog()
 
     }
@@ -29,18 +31,15 @@ class SecondViewController: UIViewController, UIWebViewDelegate {
     
     func loadDmj108Blog(){
         let url = URL(string: "http://dmj108.blogspot.com/")
-
         webView.loadRequest(URLRequest(url:url!))
     }
     
+    //Loading animation
     func webViewDidStartLoad(_ webView: UIWebView){
-        
         activity.isHidden = false
         activity.startAnimating()
-        
     }
     func webViewDidFinishLoad(_ webView: UIWebView){
-        
         activity.isHidden = true
         activity.stopAnimating()
     }
