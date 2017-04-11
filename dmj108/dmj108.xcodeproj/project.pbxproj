@@ -13,6 +13,8 @@
 		04561B171E952A94008D7F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04561B151E952A94008D7F5D /* Main.storyboard */; };
 		04561B191E952A94008D7F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04561B181E952A94008D7F5D /* Assets.xcassets */; };
 		04561B1C1E952A94008D7F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04561B1A1E952A94008D7F5D /* LaunchScreen.storyboard */; };
+		04AA623E1E9B96AA0002194B /* Running Rabbit-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA623C1E9B96A90002194B /* Running Rabbit-50.png */; };
+		04AA623F1E9B96AA0002194B /* Turtle-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA623D1E9B96AA0002194B /* Turtle-50.png */; };
 		04BAE0131E9786E10010779A /* dhammajak12minutes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */; };
 		04BAE0191E97FD2B0010779A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE0181E97FD2B0010779A /* play.png */; };
 		04BAE01B1E97FD310010779A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAE01A1E97FD310010779A /* pause.png */; };
@@ -32,6 +34,8 @@
 		04561B181E952A94008D7F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04561B1B1E952A94008D7F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04561B1D1E952A94008D7F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA623C1E9B96A90002194B /* Running Rabbit-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Running Rabbit-50.png"; sourceTree = "<group>"; };
+		04AA623D1E9B96AA0002194B /* Turtle-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turtle-50.png"; sourceTree = "<group>"; };
 		04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhammajak12minutes.mp3; sourceTree = "<group>"; };
 		04BAE0181E97FD2B0010779A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		04BAE01A1E97FD310010779A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				04BAE01C1E98176F0010779A /* background.png */,
 				04BAE01A1E97FD310010779A /* pause.png */,
 				04BAE01E1E9824410010779A /* tabbar-button-play.png */,
+				04AA623C1E9B96A90002194B /* Running Rabbit-50.png */,
+				04AA623D1E9B96AA0002194B /* Turtle-50.png */,
 				04BAE0181E97FD2B0010779A /* play.png */,
 				04BAE0201E9824ED0010779A /* tabbar-info.png */,
 				04BAE0121E9786E00010779A /* dhammajak12minutes.mp3 */,
@@ -124,7 +130,7 @@
 					04561B0B1E952A94008D7F5D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = BJQ53SH4HW;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -160,6 +166,7 @@
 				04F179F61E963D3F00BF87CD /* dhammajak.mp3 in Resources */,
 				04BAE01F1E9824410010779A /* tabbar-button-play.png in Resources */,
 				04BAE01B1E97FD310010779A /* pause.png in Resources */,
+				04AA623F1E9B96AA0002194B /* Turtle-50.png in Resources */,
 				04BAE0191E97FD2B0010779A /* play.png in Resources */,
 				04561B1C1E952A94008D7F5D /* LaunchScreen.storyboard in Resources */,
 				04561B191E952A94008D7F5D /* Assets.xcassets in Resources */,
@@ -167,6 +174,7 @@
 				04BAE0271E989D9C0010779A /* tabbar-icon-dhammajak.png in Resources */,
 				04BAE0211E9824ED0010779A /* tabbar-info.png in Resources */,
 				04561B171E952A94008D7F5D /* Main.storyboard in Resources */,
+				04AA623E1E9B96AA0002194B /* Running Rabbit-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,15 +310,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BJQ53SH4HW;
 				INFOPLIST_FILE = dmj108/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.dhammajakplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0d0f93e6-6897-43c7-82df-a4681ff8959c";
-				PROVISIONING_PROFILE_SPECIFIER = distribution.com.rgt.dhammajakplayer;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -319,15 +327,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BJQ53SH4HW;
 				INFOPLIST_FILE = dmj108/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rgt.dhammajakplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0d0f93e6-6897-43c7-82df-a4681ff8959c";
-				PROVISIONING_PROFILE_SPECIFIER = distribution.com.rgt.dhammajakplayer;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

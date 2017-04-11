@@ -3,8 +3,8 @@
 //  dmj108
 //
 //  Created by Jirayudech on 4/5/2560 BE.
-//  Copyright © 2560 RGT Soft. All rights reserved.
-//
+//  UI/UX Designed by Nopphakhun
+//  Developed by RGT Soft.
 
 import UIKit
 
